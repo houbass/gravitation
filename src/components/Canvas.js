@@ -6,10 +6,8 @@ import { PerspectiveCamera, TrackballControls} from "@react-three/drei";
 
 //CANVAS ELEMENTS
 //import Asteroids from "./Asteroids";
-import Stars from "./Stars";
 import Lights from "./Lights";
 import Planets from "./Planets";
-
 
 const CanvasPage = ({ 
         gridvalue1, 

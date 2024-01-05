@@ -147,7 +147,7 @@ const Asteroids = ({
             asteroidHandler.push(new Asteroids(ly, lx, asteroidZ, r, vX, vY, index));
         }
         setAsteroids(asteroidHandler);
-
+        // eslint-disable-next-line
     }, [setState])
     
     //ANIMATION
